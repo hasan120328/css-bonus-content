@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .photo-album{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .photo-frame{
+            width: 200px;
+            height: 135px;
+            border: 5px solid salmon;
+            border-radius: 10px;
+            position: relative;
+            margin: 10px;
+            overflow: hidden;
+            
+        }
+        .photo-frame .photo img{
+            width: 100%;
+           
+        }
+        .photo-details{
+            position: absolute;
+            width: 200px;
+            height: 135px;
+            top: 0px;
+            display: none;
+        }
+        .photo-frame:hover .photo-details{
+            display: block;
+            background-color: rgba(231, 192, 187 ,0.4);
+        }
+        .photo-frame:hover .photo-details h1{
+            color: white;
+            text-align: center;
+            background-color: black;
+        }
+        .photo-frame:hover .photo img{
+            transform: skew(30deg);
+           transition: transform 1s;
+           
+
+            
+
+        }
+    </style>
+</head>
+<body>
+    <h1>my photo Book</h1>
+    <section class="photo-album"> 
+        <div class="photo-frame">
+            <div class="photo"><img src="images/tiger.jpg" alt=""></div>
+            <div class="photo-details">
+                <h1>Royal Bengal Tiger</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipelit. quisquam hic officia! </p>
+            </div>
+        </div>
+
+        <div class="photo-frame">
+            <div class="photo"><img src="images/tiger.jpg" alt=""></div>
+            <div class="photo-details">
+                <h1>Royal Bengal Tiger</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipelit. quisquam hic officia! </p>
+            </div>
+        </div>
+
+        <div class="photo-frame">
+            <div class="photo"><img src="images/tiger.jpg" alt=""></div>
+            <div class="photo-details">
+                <h1>Royal Bengal Tiger</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipelit. quisquam hic officia! </p>
+            </div>
+        </div>
+
+        <div class="photo-frame">
+            <div class="photo"><img src="images/tiger.jpg" alt=""></div>
+            <div class="photo-details">
+                <h1>Royal Bengal Tiger</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipelit. quisquam hic officia! </p>
+            </div>
+        </div>
+
+        <div class="photo-frame">
+            <div class="photo"><img src="images/tiger.jpg" alt=""></div>
+            <div class="photo-details">
+                <h1>Royal Bengal Tiger</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipelit. quisquam hic officia! </p>
+            </div>
+        </div>
+
+        <div class="photo-frame">
+            <div class="photo"><img src="images/tiger.jpg" alt=""></div>
+            <div class="photo-details">
+                <h1>Royal Bengal Tiger</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipelit. quisquam hic officia! </p>
+            </div>
+        </div>
+
+        <div class="photo-frame">
+            <div class="photo"><img src="images/tiger.jpg" alt=""></div>
+            <div class="photo-details">
+                <h1>Royal Bengal Tiger</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipelit. quisquam hic officia! </p>
+            </div>
+        </div>
+
+        <div class="photo-frame">
+            <div class="photo"><img src="images/tiger.jpg" alt=""></div>
+            <div class="photo-details">
+                <h1>Royal Bengal Tiger</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipelit. quisquam hic officia! </p>
+            </div>
+        </div>
+
+        <div class="photo-frame">
+            <div class="photo"><img src="images/tiger.jpg" alt=""></div>
+            <div class="photo-details">
+                <h1>Royal Bengal Tiger</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipelit. quisquam hic officia! </p>
+            </div>
+        </div>
+
+        <div class="photo-frame">
+            <div class="photo"><img src="images/tiger.jpg" alt=""></div>
+            <div class="photo-details">
+                <h1>Royal Bengal Tiger</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipelit. quisquam hic officia! </p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
